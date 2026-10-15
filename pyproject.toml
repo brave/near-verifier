@@ -8,7 +8,7 @@ license = "MPL-2.0"
 license-files = ["LICENSE"]
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "dcap-qvl==0.3.13",  # Intel DCAP quote verifier
+    "dcap-qvl==0.6.6",  # Intel DCAP quote verifier
     "requests==2.34.2",
     "certifi==2026.7.22",  # TLS root trust store
     "cryptography==50.0.2",
