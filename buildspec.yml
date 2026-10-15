@@ -1,0 +1,56 @@
+version: 0.2
+env:
+  variables:
+    # Deployment to verify: "prod" (default) or "staging". Selects BASE_URL and
+    # the gateway commit pins.
+    NEAR_ENV: "prod"
+    # Marketplace model id this run verifies (one per run; override with
+    # make codebuild-prod MODEL=<id>). Must have a pin entry in
+    # config._PROXY_EXPECTED_COMMITS. The run fails if the attested model_name
+    # differs (cloud-api may alias a retired id onto another model).
+    MODEL_NAME: "z-ai/glm-5.3-flash"
+  git-credential-helper: yes
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - echo "Installing dependencies..."
+      - bash ./scripts/install.sh
+    finally:
+      - echo 'Install phase completed'
+  
+  pre_build:
+    commands:
+      - echo "Running pre-build setup..."
+      - bash ./scripts/pre-build.sh
+    finally:
+      - echo 'Pre-build phase completed'
+  
+  build:
+    commands:
+      - echo "Running verification..."
+      - bash ./scripts/build.sh || { echo "❌ Build phase failed"; exit 1; }
+    finally:
+      - echo 'Build phase completed'
+  
+  post_build:
+    commands:
+      - echo "Generating reports..."
+      - bash ./scripts/post-build.sh || { echo "⚠️ Post-build phase failed"; exit 1; }
+    finally:
+      - echo 'Post-build phase completed'
+
+# No `reports:` block: report groups need test-result formats such as JUnit XML;
+# the JSON/text reports ship via `artifacts`.
+
+artifacts:
+  files:
+    - '/tmp/verification/**/*'
+  name: tee-verification-artifacts-$CODEBUILD_BUILD_NUMBER
+  base-directory: '/tmp'
+
+cache:
+  paths:
+    - '/root/.cache/pip/**/*'

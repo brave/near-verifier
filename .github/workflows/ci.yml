@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  POETRY_VERSION: "2.3.4"
+
+jobs:
+  test:
+    name: test (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.11 is the AWS CodeBuild runtime (buildspec.yml).
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Poetry
+        run: pipx install poetry==${{ env.POETRY_VERSION }}
+
+      - name: Install dependencies
+        run: poetry install --no-interaction
+
+      # The tests read compose files through the pinned Compose release.
+      - name: Install Docker Compose
+        env:
+          COMPOSE_VERSION: v5.1.4
+          COMPOSE_SHA256: 33b208d7e76639db742fae84b966cc01dacae58ca3fc4dabbc907045aefdf0c4
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/docker-compose" \
+            "https://github.com/docker/compose/releases/download/$COMPOSE_VERSION/docker-compose-linux-x86_64"
+          echo "$COMPOSE_SHA256  $RUNNER_TEMP/docker-compose" | sha256sum -c -
+          chmod +x "$RUNNER_TEMP/docker-compose"
+          echo "COMPOSE_BIN=$RUNNER_TEMP/docker-compose" >> "$GITHUB_ENV"
+
+      - name: Run tests
+        run: poetry run pytest
+
+  lint:
+    name: lint and typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          # The deployment runtime; matches ruff's py311 target.
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: pipx install poetry==${{ env.POETRY_VERSION }}
+
+      - name: Install dependencies
+        run: poetry install --no-interaction
+
+      - name: Lint (shell syntax, ruff, format check)
+        run: make lint
+
+      - name: Type check
+        run: poetry run mypy verifier tests
+
+      - name: Security scan
+        run: poetry run bandit -r verifier/ -c pyproject.toml
+
+      - name: Dead code
+        run: poetry run vulture verifier/ scripts/ --min-confidence 80

@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+.env.*
+!*.env.example
+.codebuild.env
+.codebuild-env-vars
+
+# Build outputs and artifacts
+output/
+remote-artifacts/
+dist/
+build/
+*.egg-info/
+*.tar
+*.zip
+*.gz
+
+# Temporary and cache directories
+tmp/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Test outputs and logs
+*.log
+*.pyc
+*.pyo
+*.pyd
+.Python
+verification-output.log
+final-report.txt
+
+# IDE, agent, and OS
+.vscode/
+.idea/
+.claude/settings.local.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Poetry (poetry.lock is committed)
+.venv/
+venv/
+env/
+
+# Project specific
+# Maintainer-local prompt for `make review-pins` [s]can (PIN_REVIEW_PROMPT_FILE).
+scripts/privacy_review_prompt.md
+.GIT_REV

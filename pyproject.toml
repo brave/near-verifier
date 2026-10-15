@@ -1,0 +1,78 @@
+[project]
+name = "verify-near-tee"
+version = "0.1.0"
+description = "Independently verify NEAR AI Cloud's TDX and GPU attestation, image provenance and reproducible builds"
+authors = [{name = "Brave Software", email = "security@brave.com"}]
+readme = "README.md"
+license = "MPL-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "dcap-qvl==0.3.13",  # Intel DCAP quote verifier
+    "requests==2.34.2",
+    "certifi==2026.7.22",  # TLS root trust store
+    "cryptography==50.0.2",
+    "boto3==1.43.59",
+    "pyjwt[cryptography]==2.15.1",
+    "pycryptodomex==3.23.0",  # Keccak-256 for secp256k1 signing-address derivation
+    "pyyaml==6.0.3",  # docker-compose parsing
+]
+
+[project.urls]
+Repository = "https://github.com/brave/near-tee-verifier"
+Issues = "https://github.com/brave/near-tee-verifier/issues"
+
+[project.scripts]
+verify-near-tee = "verifier.main:cli"
+
+[tool.poetry]
+packages = [{include = "verifier"}]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "9.1.1"
+pytest-cov = "4.1.0"
+mypy = "1.20.2"
+ruff = "0.16.0"
+bandit = {extras = ["toml"], version = "1.9.4"}  # >=1.9 needed to parse Python 3.14
+pre-commit = "4.6.1"
+vulture = "2.16"
+types-requests = "2.33.0.20260712"
+types-pyyaml = "6.0.12.20260906"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "A", "C4", "T20"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["T201"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+mypy_path = "stubs"
+[[tool.mypy.overrides]]
+module = ["boto3.*", "botocore.*", "Cryptodome.*"]
+ignore_missing_imports = true
+
+[tool.bandit]
+exclude_dirs = ["tests", "tmp"]
+skips = ["B404"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "--cov=verifier --cov-report=term-missing --cov-fail-under=70"
+filterwarnings = [
+    # A certifi root has a non-positive serial; the trust-store loader skips it.
+    "ignore:Parsed a serial number which wasn't positive",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"

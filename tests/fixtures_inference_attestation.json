@@ -1,0 +1,697 @@
+{
+  "model_name": "openai/gpt-oss-120b",
+  "signing_address": "0x56d070df1c6be444b007839ef9cf67cec7c12b8b",
+  "signing_algo": "ecdsa",
+  "signing_public_key": "a31cdd4f9443ebc31cffffd688621a1807b41c2f02649881d010f881de0a5e94ddec8208161e8fa02ae3748700bf8be3333c9683d6e13e0bbe7e92ee7d2243b8",
+  "request_nonce": "63c1fb7a03f677c16fd97eeb0e1cc0fc1346d6297e85f0c84307c1039b0e5594",
+  "intel_quote": "0000000000000000",
+  "nvidia_payload": "{\"nonce\": \"63c1fb7a03f677c16fd97eeb0e1cc0fc1346d6297e85f0c84307c1039b0e5594\", \"evidence\": \"<trimmed>\"}",
+  "event_log": "<trimmed>",
+  "info": {
+    "app_cert": "-----BEGIN CERTIFICATE-----\nMIIyKzCCMdKgAwIBAgIUS/V3OuCUWtGwPtxq5rO8qJl2n1EwCgYIKoZIzj0EAwIw\nKTEPMA0GA1UECgwGRHN0YWNrMRYwFAYDVQQDDA1Ec3RhY2sgQXBwIENBMB4XDTc1\nMDEwMTAwMDAwMFoXDTM2MDUxMDE0MzQyN1owFDESMBAGA1UEAwwJZGVtby1jZXJ0\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExI+25YwdwLwQyDICvyKeyUQTxT+Z\nAslfzP4QnSC2N7V8oeOMfgHtnE9JV7IDhrRdFF7oRbRNuXmDglRdvhIkkaOCMOsw\ngjDnMA8GA1UdDwEB/wQFAwMHgAAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwghOmBgor\nBgEEAYPnPQEBBIITlgSCE5IEAAIAgQAAAAAAAACTmnIz95xMqZQKDbOVfwYHIzD7\nHB5a8bH5owPIFSdAHwAAAAAHAQMAAAAAAAAAAAAAAAAASbZvqkUdGeu9vok3G42v\nK2WqOYTskBEDQ+ni7sEWrwiFD6IOOxqpqHTXemU4DufmAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA\nAOcCBgAAAAAAsk07JOnjwWASN2tSNiygmFbErey3CdX6wzrd8cR+GT2gdbEltsNk\nEVdxOQpUYeIXAby8zM9Feo8tzYN7YV71b2PqpwfjZ18ezQjugcsG7CsoAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAvBItFDq3aFZbpcN3T/XwOmPImk33wfXqONO9FzQJ0U+Mvcw21A5w\nPMy5lqnZaHWQwERbcE5MSBOUlq4zdCPdsdzuOmc/1ftgpT1WLxJ9I18R3kcae07h\nLJAnyCl4Z1fcVkYix93FWlMnLMnwlW0ps/fg3Rjt5DJyC3H9ieW112ywuZvnt/8q\napK4m2sBZDE1HJTfhGpLm9I/YuGp1Bz7TDI55XACVhXR62DNHsAYp3fNvO+L7uDS\ns6ne1HbDMzzRWVmRPFkS2pAkeTqsEJvZRKTtPGj0hz8jv4gjeIOx8RNpxklCjzA2\nLjK6uvIGnA6cBvhLL3iTgRj7j8MKj6Pf09AQAABFP55CZDv6KwQhPuk8aGX1X9/U\nlMj2fuuoyri3RDFwwd5BDi4oWVsJbuR3x9ceicWVWujGE0J8tGVbDb4DzWgs+Ynx\nYOKLtid9be++1dJ4o/V0xzupvoYnL9vaEdhOWZRe+gQGIDA3+PNSM3YCGVbU86bF\nJkCieNkPRr9MavH0qAYAShAAAAMDGRsE/wAGAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAA5wAAAAAAAADlo6e12DDClTuYU0xs\nWaOjT9w06TP39YmPCoXPCIRrygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAA3J4qfG+UjxdHTjSn/EPtAw98FWPxur3fY0DILg5UqMUAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAYAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAA+AMuWLDtNbk4vbKhaPEoBpcwehptjA5L2BI2oQUIl+QAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAy1r7K7OpTATZbVScLWNK1kRLmUy1YmTseYaj8s\na4nxjggXidsZFhzK8PW2hlukhLPKnxGh7YI/2NgaPW4LtGogAAABAgMEBQYHCAkK\nCwwNDg8QERITFBUWFxgZGhscHR4fBQBiDgAALS0tLS1CRUdJTiBDRVJUSUZJQ0FU\nRS0tLS0tCk1JSUU4akNDQkplZ0F3SUJBZ0lWQUpZZS9nTmhCVGRNdkhUajd4bDBk\nOC9QRVFKZ01Bb0dDQ3FHU000OUJBTUMKTUhBeElqQWdCZ05WQkFNTUdVbHVkR1Zz\nSUZOSFdDQlFRMHNnVUd4aGRHWnZjbTBnUTBFeEdqQVlCZ05WQkFvTQpFVWx1ZEdW\nc0lFTnZjbkJ2Y21GMGFXOXVNUlF3RWdZRFZRUUhEQXRUWVc1MFlTQkRiR0Z5WVRF\nTE1Ba0dBMVVFCkNBd0NRMEV4Q3pBSkJnTlZCQVlUQWxWVE1CNFhEVEkxTVRJeU9U\nRTRORFl3T1ZvWERUTXlNVEl5T1RFNE5EWXcKT1Zvd2NERWlNQ0FHQTFVRUF3d1pT\nVzUwWld3Z1UwZFlJRkJEU3lCRFpYSjBhV1pwWTJGMFpURWFNQmdHQTFVRQpDZ3dS\nU1c1MFpXd2dRMjl5Y0c5eVlYUnBiMjR4RkRBU0JnTlZCQWNNQzFOaGJuUmhJRU5z\nWVhKaE1Rc3dDUVlEClZRUUlEQUpEUVRFTE1Ba0dBMVVFQmhNQ1ZWTXdXVEFUQmdj\ncWhrak9QUUlCQmdncWhrak9QUU1CQndOQ0FBVEkKa251SEFucCs4eW9WSmtOck9s\nZmI5ck1BS2prd2FsUVQyWWhlOFBqWDhLbmpvRElDVlUzYXNhYnhvVlB0eWlVOApn\nMFh5UE9tOGJrRlZzTTBGQUFXTW80SURERENDQXdnd0h3WURWUjBqQkJnd0ZvQVVs\nVzlkemIwYjRlbEFTY25VCjlEUE9BVmNMM2xRd2F3WURWUjBmQkdRd1lqQmdvRjZn\nWElaYWFIUjBjSE02THk5aGNHa3VkSEoxYzNSbFpITmwKY25acFkyVnpMbWx1ZEdW\nc0xtTnZiUzl6WjNndlkyVnlkR2xtYVdOaGRHbHZiaTkyTkM5d1kydGpjbXcvWTJF\nOQpjR3hoZEdadmNtMG1aVzVqYjJScGJtYzlaR1Z5TUIwR0ExVWREZ1FXQkJTOU1Q\nSW8wdzI4OHVLZEpCMlpMZXI0CkhLQW9sekFPQmdOVkhROEJBZjhFQkFNQ0JzQXdE\nQVlEVlIwVEFRSC9CQUl3QURDQ0Fqa0dDU3FHU0liNFRRRU4KQVFTQ0Fpb3dnZ0lt\nTUI0R0NpcUdTSWI0VFFFTkFRRUVFUEZjWEorN3ZPcWM3Qm5nQnFrL1ZZc3dnZ0Zq\nQmdvcQpoa2lHK0UwQkRRRUNNSUlCVXpBUUJnc3Foa2lHK0UwQkRRRUNBUUlCQXpB\nUUJnc3Foa2lHK0UwQkRRRUNBZ0lCCkF6QVFCZ3NxaGtpRytFMEJEUUVDQXdJQkFq\nQVFCZ3NxaGtpRytFMEJEUUVDQkFJQkFqQVFCZ3NxaGtpRytFMEIKRFFFQ0JRSUJC\nREFRQmdzcWhraUcrRTBCRFFFQ0JnSUJBVEFRQmdzcWhraUcrRTBCRFFFQ0J3SUJB\nREFRQmdzcQpoa2lHK0UwQkRRRUNDQUlCQlRBUUJnc3Foa2lHK0UwQkRRRUNDUUlC\nQURBUUJnc3Foa2lHK0UwQkRRRUNDZ0lCCkFEQVFCZ3NxaGtpRytFMEJEUUVDQ3dJ\nQkFEQVFCZ3NxaGtpRytFMEJEUUVDREFJQkFEQVFCZ3NxaGtpRytFMEIKRFFFQ0RR\nSUJBREFRQmdzcWhraUcrRTBCRFFFQ0RnSUJBREFRQmdzcWhraUcrRTBCRFFFQ0R3\nSUJBREFRQmdzcQpoa2lHK0UwQkRRRUNFQUlCQURBUUJnc3Foa2lHK0UwQkRRRUNF\nUUlCRFRBZkJnc3Foa2lHK0UwQkRRRUNFZ1FRCkF3TUNBZ1FCQUFVQUFBQUFBQUFB\nQURBUUJnb3Foa2lHK0UwQkRRRURCQUlBQURBVUJnb3Foa2lHK0UwQkRRRUUKQkFh\nUXdHOEFBQUF3RHdZS0tvWklodmhOQVEwQkJRb0JBVEFlQmdvcWhraUcrRTBCRFFF\nR0JCQTlRVkdrcWJzcwp2MFM2NnZDUXVLMG9NRVFHQ2lxR1NJYjRUUUVOQVFjd05q\nQVFCZ3NxaGtpRytFMEJEUUVIQVFFQi96QVFCZ3NxCmhraUcrRTBCRFFFSEFnRUIv\nekFRQmdzcWhraUcrRTBCRFFFSEF3RUIvekFLQmdncWhrak9QUVFEQWdOSkFEQkcK\nQWlFQXpScWRvQStTWnh5MWNpZU9xbW1oL2NWTkpRQU5uVU9sd2thWGVFRGZKNTRD\nSVFDRzV0Y0d6K2NjY0pVKwo3TGpaUHF6MDkyOUFieFdiaDZQYmFFcjB3QjRYc0E9\nPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCi0tLS0tQkVHSU4gQ0VSVElGSUNB\nVEUtLS0tLQpNSUlDbGpDQ0FqMmdBd0lCQWdJVkFKVnZYYzI5RytIcFFFbkoxUFF6\nemdGWEM5NVVNQW9HQ0NxR1NNNDlCQU1DCk1HZ3hHakFZQmdOVkJBTU1FVWx1ZEdW\nc0lGTkhXQ0JTYjI5MElFTkJNUm93R0FZRFZRUUtEQkZKYm5SbGJDQkQKYjNKd2Iz\nSmhkR2x2YmpFVU1CSUdBMVVFQnd3TFUyRnVkR0VnUTJ4aGNtRXhDekFKQmdOVkJB\nZ01Ba05CTVFzdwpDUVlEVlFRR0V3SlZVekFlRncweE9EQTFNakV4TURVd01UQmFG\ndzB6TXpBMU1qRXhNRFV3TVRCYU1IQXhJakFnCkJnTlZCQU1NR1VsdWRHVnNJRk5I\nV0NCUVEwc2dVR3hoZEdadmNtMGdRMEV4R2pBWUJnTlZCQW9NRVVsdWRHVnMKSUVO\ndmNuQnZjbUYwYVc5dU1SUXdFZ1lEVlFRSERBdFRZVzUwWVNCRGJHRnlZVEVMTUFr\nR0ExVUVDQXdDUTBFeApDekFKQmdOVkJBWVRBbFZUTUZrd0V3WUhLb1pJemowQ0FR\nWUlLb1pJemowREFRY0RRZ0FFTlNCLzd0MjFsWFNPCjJDdXpweHc3NGVKQjcyRXlE\nR2dXNXJYQ3R4MnRWVExxNmhLazZ6K1VpUlpDbnFSN3BzT3ZncUZlU3hsbVRsSmwK\nZVRtaTJXWXozcU9CdXpDQnVEQWZCZ05WSFNNRUdEQVdnQlFpWlF6V1dwMDBpZk9E\ndEpWU3YxQWJPU2NHckRCUwpCZ05WSFI4RVN6QkpNRWVnUmFCRGhrRm9kSFJ3Y3pv\ndkwyTmxjblJwWm1sallYUmxjeTUwY25WemRHVmtjMlZ5CmRtbGpaWE11YVc1MFpX\nd3VZMjl0TDBsdWRHVnNVMGRZVW05dmRFTkJMbVJsY2pBZEJnTlZIUTRFRmdRVWxX\nOWQKemIwYjRlbEFTY25VOURQT0FWY0wzbFF3RGdZRFZSMFBBUUgvQkFRREFnRUdN\nQklHQTFVZEV3RUIvd1FJTUFZQgpBZjhDQVFBd0NnWUlLb1pJemowRUF3SURSd0F3\nUkFJZ1hzVmtpMHcraTZWWUdXM1VGLzIydWFYZTBZSkRqMVVlCm5BK1RqRDFhaTVj\nQ0lDWWIxU0FtRDV4a2ZUVnB2bzRVb3lpU1l4ckRXTG1VUjRDSTlOS3lmUE4rCi0t\nLS0tRU5EIENFUlRJRklDQVRFLS0tLS0KLS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0t\nLS0tCk1JSUNqekNDQWpTZ0F3SUJBZ0lVSW1VTTFscWROSW56ZzdTVlVyOVFHemtu\nQnF3d0NnWUlLb1pJemowRUF3SXcKYURFYU1CZ0dBMVVFQXd3UlNXNTBaV3dnVTBk\nWUlGSnZiM1FnUTBFeEdqQVlCZ05WQkFvTUVVbHVkR1ZzSUVOdgpjbkJ2Y21GMGFX\nOXVNUlF3RWdZRFZRUUhEQXRUWVc1MFlTQkRiR0Z5WVRFTE1Ba0dBMVVFQ0F3Q1Ew\nRXhDekFKCkJnTlZCQVlUQWxWVE1CNFhEVEU0TURVeU1URXdORFV4TUZvWERUUTVN\nVEl6TVRJek5UazFPVm93YURFYU1CZ0cKQTFVRUF3d1JTVzUwWld3Z1UwZFlJRkp2\nYjNRZ1EwRXhHakFZQmdOVkJBb01FVWx1ZEdWc0lFTnZjbkJ2Y21GMAphVzl1TVJR\nd0VnWURWUVFIREF0VFlXNTBZU0JEYkdGeVlURUxNQWtHQTFVRUNBd0NRMEV4Q3pB\nSkJnTlZCQVlUCkFsVlRNRmt3RXdZSEtvWkl6ajBDQVFZSUtvWkl6ajBEQVFjRFFn\nQUVDNm5Fd01ESVlaT2ovaVBXc0N6YUVLaTcKMU9pT1NMUkZoV0dqYm5CVkpmVm5r\nWTR1M0lqa0RZWUwwTXhPNG1xc3lZamxCYWxUVll4RlAyc0pCSzV6bEtPQgp1ekNC\ndURBZkJnTlZIU01FR0RBV2dCUWlaUXpXV3AwMGlmT0R0SlZTdjFBYk9TY0dyREJT\nQmdOVkhSOEVTekJKCk1FZWdSYUJEaGtGb2RIUndjem92TDJObGNuUnBabWxqWVhS\nbGN5NTBjblZ6ZEdWa2MyVnlkbWxqWlhNdWFXNTAKWld3dVkyOXRMMGx1ZEdWc1Uw\nZFlVbTl2ZEVOQkxtUmxjakFkQmdOVkhRNEVGZ1FVSW1VTTFscWROSW56ZzdTVgpV\ncjlRR3prbkJxd3dEZ1lEVlIwUEFRSC9CQVFEQWdFR01CSUdBMVVkRXdFQi93UUlN\nQVlCQWY4Q0FRRXdDZ1lJCktvWkl6ajBFQXdJRFNRQXdSZ0loQU9XLzVRa1IrUzlD\naVNEY05vb3dMdVBSTHNXR2YvWWk3R1NYOTRCZ3dUd2cKQWlFQTRKMGxySG9NcytY\nbzVvL3NYNk85UVd4SFJBdlpVR09kUlE3Y3ZxUlhhcUk9Ci0tLS0tRU5EIENFUlRJ\nRklDQVRFLS0tLS0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwghzRBgorBgEEAYPn\nPQECBIIcwQSCHL1beyJpbXIiOjAsImV2ZW50X3R5cGUiOjIxNDc0ODM2NTksImRp\nZ2VzdCI6IjYwYTM2MDkwZTgyZGIyYWE4MmE3YWJiNzYwMjliOWFjZTY5ZTlmMDgx\nMWI3MDI5ZmYyNWEyNmEyZThiOTFjMTgyNjk2ZGY5MjY3NGFiNTcxYzQyMDkzMzgz\nZTFmY2M3MSIsImV2ZW50IjoiIiwiZXZlbnRfcGF5bG9hZCI6IjA5NTQ2NDc4NTQ2\nMTYyNmM2NTAwMDEwMDAwMDAwMDAwMDAwMGFmOTZiYjkzZjJiOWI4NGU5NDYyZTBi\nYTc0NTY0MjM2MDA5MDgwMDAwMDAwMDAwMCJ9LHsiaW1yIjowLCJldmVudF90eXBl\nIjoyMTQ3NDgzNjU4LCJkaWdlc3QiOiIzNDRiYzUxYzk4MGJhNjIxYWFhMDBkYTNl\nZDc0MzZmN2Q2ZTU0OTE5N2RmZTY5OTUxNWRmYTJjNjU4M2Q5NWU2NDEyYWYyMWMw\nOTdkNDczMTU1ODc1ZmZkNTYxZDY3OTAiLCJldmVudCI6IiIsImV2ZW50X3BheWxv\nYWQiOiIyOTQ2NzYyODU4NTg1ODU4NTg1ODU4NTgyZDU4NTg1ODU4MmQ1ODU4NTg1\nODJkNTg1ODU4NTgyZDU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODI5MDAwMDAwYzBm\nZjAwMDAwMDAwMDA0MDA4MDAwMDAwMDAwMCJ9LHsiaW1yIjowLCJldmVudF90eXBl\nIjoyMTQ3NDgzNjQ5LCJkaWdlc3QiOiI5ZGMzYTFmODBiY2VjOTE1MzkxZGNkYTVm\nZmJiMTVlNzQxOWY3N2VhYjQ2MmJiZjcyYjQyMTY2ZmI3MGQ1MDMyNWUzN2IzNmY5\nMzUzN2E4NjM3NjliY2Y5YmVkYWU2ZmIiLCJldmVudCI6IiIsImV2ZW50X3BheWxv\nYWQiOiI2MWRmZTQ4YmNhOTNkMjExYWEwZDAwZTA5ODAzMmI4YzBhMDAwMDAwMDAw\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTMwMDY1MDA2MzAwNzUwMDcyMDA2NTAwNDIw\nMDZmMDA2ZjAwNzQwMCJ9LHsiaW1yIjowLCJldmVudF90eXBlIjoyMTQ3NDgzNjQ5\nLCJkaWdlc3QiOiI2ZjJlM2NiYzE0ZjlkZWY4Njk4MGY1ZjY2ZmQ4NWU5OWQ2M2U2\nOWE3MzAxNGVkOGE1NjMzY2U1NmVjYTViNjRiNjkyMTA4YzU2MTEwZTIyYWNhZGNl\nZjU4YzMyNTBmMWIiLCJldmVudCI6IiIsImV2ZW50X3BheWxvYWQiOiI2MWRmZTQ4\nYmNhOTNkMjExYWEwZDAwZTA5ODAzMmI4YzAyMDAwMDAwMDAwMDAwMDAwMDAwMDAw\nMDAwMDAwMDAwNTAwMDRiMDAifSx7ImltciI6MCwiZXZlbnRfdHlwZSI6MjE0NzQ4\nMzY0OSwiZGlnZXN0IjoiZDYwN2MwZWZiNDFjMGQ3NTdkNjliY2EwNjE1YzNhOWFj\nMGIxZGIwNmM1NTdkOTkyZTkwNmM2YjdkZWU0MGUwZTAzMTY0MGM3YmZkN2JjZDM1\nODQ0ZWY5ZWRlYWRjNmY5IiwiZXZlbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiNjFk\nZmU0OGJjYTkzZDIxMWFhMGQwMGUwOTgwMzJiOGMwMzAwMDAwMDAwMDAwMDAwMDAw\nMDAwMDAwMDAwMDAwMDRiMDA0NTAwNGIwMCJ9LHsiaW1yIjowLCJldmVudF90eXBl\nIjoyMTQ3NDgzNjQ5LCJkaWdlc3QiOiIwOGE3NGY4OTYzYjMzN2FjYjZjOTM2ODJm\nOTM0NDk2MzczNjc5ZGQyNmFmMTA4OWNiNGVhZjBjMzBjZjI2MGExMmU4MTQ4NTYz\nODVhYjg4NDNlNTZhOWFjZWExOWUxMjciLCJldmVudCI6IiIsImV2ZW50X3BheWxv\nYWQiOiJjYmIyMTlkNzNhM2Q5NjQ1YTNiY2RhZDAwZTY3NjU2ZjAyMDAwMDAwMDAw\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwNjQwMDYyMDAifSx7ImltciI6MCwiZXZlbnRf\ndHlwZSI6MjE0NzQ4MzY0OSwiZGlnZXN0IjoiMThjYzZlMDFmMGM2ZWE5OWFhMjNm\nOGEyODA0MjNlOTRhZDgxZDk2ZDBhZWI1MTgwNTA0ZmMwZjdhNDBjYjM2MTlkZDM5\nYmQ2YTk1ZWMxNjgwYTg2ZWQ2YWIwZjk4MjhkIiwiZXZlbnQiOiIiLCJldmVudF9w\nYXlsb2FkIjoiY2JiMjE5ZDczYTNkOTY0NWEzYmNkYWQwMGU2NzY1NmYwMzAwMDAw\nMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDY0MDA2MjAwNzgwMCJ9LHsiaW1yIjow\nLCJldmVudF90eXBlIjo0LCJkaWdlc3QiOiIzOTQzNDFiNzE4MmNkMjI3YzVjNmIw\nN2VmODAwMGNkZmQ4NjEzNmM0MjkyYjhlNTc2NTczYWQ3ZWQ5YWU0MTAxOWY1ODE4\nYjRiOTcxYzllZmZjNjBlMWFkOWYxMjg5ZjAiLCJldmVudCI6IiIsImV2ZW50X3Bh\neWxvYWQiOiIwMDAwMDAwMCJ9LHsiaW1yIjowLCJldmVudF90eXBlIjoxMCwiZGln\nZXN0IjoiMDY3ZGJlYTg2OWQ2NjI0MDFjZmMxMjg2MTI0NzJiNjg4ODk5Yjk1ZmU4\nMDFjZWM5ZTQ3MzM4OGYyY2U4ZDAwYzU2Yjg1YTQ1MTEwNTFhOGQzZWVhM2EzNDVh\nYTNkOTQzIiwiZXZlbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiNDE0MzUwNDkyMDQ0\nNDE1NDQxIn0seyJpbXIiOjAsImV2ZW50X3R5cGUiOjEwLCJkaWdlc3QiOiJlNjE4\nZWY5MmZhOTA4Nzc2OTVjNGJlNGNlOTRlOTlmOGNhYzY0NGY5MmQ0MDkwMGE2MTQx\nMTU0ZjE5ZWU4ZmVmZGU0NjBmOGM3NWFjYWM1ZGVjM2Y0YjE1NDUyNTliY2YiLCJl\ndmVudCI6IiIsImV2ZW50X3BheWxvYWQiOiI0MTQzNTA0OTIwNDQ0MTU0NDEifSx7\nImltciI6MCwiZXZlbnRfdHlwZSI6MTAsImRpZ2VzdCI6IjM2YWI2NzMwNWEwNWNh\nODQzMjdhYmViM2FjNGMzZmZmMjhkZDQwZTIzYzRhMjU0OWQ4YzU2OTE0ZGFmYzZh\nZmFjMjhiNDY4NzgxMGUxYWQ5MTg3MWE5NWRlMjI0YzYwMSIsImV2ZW50IjoiIiwi\nZXZlbnRfcGF5bG9hZCI6IjQxNDM1MDQ5MjA0NDQxNTQ0MSJ9LHsiaW1yIjoxLCJl\ndmVudF90eXBlIjoyMTQ3NDgzNjUxLCJkaWdlc3QiOiJkMjQwM2I5YmM1NWYxOGI2\nYjkxMzZhMjkzNDE3YjFjYmUzYmVlNjMzZTRmNjk2NmM5ZmY3YjdjY2VkOWNlZDE3\nZDUyNDBlYTc5MzMxMDIzYjAxYTU0NTk1MDE2MWVlMTMiLCJldmVudCI6IiIsImV2\nZW50X3BheWxvYWQiOiIxODIwZmU3YTAwMDAwMDAwMDA2NDg1MDAwMDAwMDAwMDAw\nMDAwMDAwMDAwMDAwMDAyYTAwMDAwMDAwMDAwMDAwMDQwMzE0MDA3MmY3MjgxNDRh\nYjYxZTQ0YjhjMzllYmRkN2Y4OTNjNzA0MDQxMjAwNmIwMDY1MDA3MjAwNmUwMDY1\nMDA2YzAwMDAwMDdmZmYwNDAwIn0seyJpbXIiOjAsImV2ZW50X3R5cGUiOjIxNDc0\nODM2NTAsImRpZ2VzdCI6IjFkZDZmN2I0NTdhZDg4MGQ4NDBkNDFjOTYxMjgzYmFi\nNjg4ZTk0ZTRiNTkzNTllYTQ1Njg2NTgxZTkwZmVjY2VhM2M2MjRiMTIyNjExM2Y4\nMjRmMzE1ZWI2MGFlMGE3YyIsImV2ZW50IjoiIiwiZXZlbnRfcGF5bG9hZCI6IjYx\nZGZlNDhiY2E5M2QyMTFhYTBkMDBlMDk4MDMyYjhjMDkwMDAwMDAwMDAwMDAwMDAy\nMDAwMDAwMDAwMDAwMDA0MjAwNmYwMDZmMDA3NDAwNGYwMDcyMDA2NDAwNjUwMDcy\nMDAwMDAwIn0seyJpbXIiOjAsImV2ZW50X3R5cGUiOjIxNDc0ODM2NTAsImRpZ2Vz\ndCI6IjIzYWRhMDdmNTI2MWYxMmYzNGEwYmQ4ZTQ2NzYwOTYyZDZiNGQ1NzZhNDE2\nZjFmZWExYzY0YmM2NTZiMWQyOGVhY2Y3MDQ3YWU2ZTk2N2M1OGZkMmE5OGJmYTc0\nYzI5OCIsImV2ZW50IjoiIiwiZXZlbnRfcGF5bG9hZCI6IjYxZGZlNDhiY2E5M2Qy\nMTFhYTBkMDBlMDk4MDMyYjhjMDgwMDAwMDAwMDAwMDAwMDNlMDAwMDAwMDAwMDAw\nMDA0MjAwNmYwMDZmMDA3NDAwMzAwMDMwMDAzMDAwMzAwMDA5MDEwMDAwMmMwMDU1\nMDA2OTAwNDEwMDcwMDA3MDAwMDAwMDA0MDcxNDAwYzliZGI4N2NlYmY4MzQ0ZmFh\nZWEzZWU0YWY2NTE2YTEwNDA2MTQwMDIxYWEyYzQ2MTQ3NjAzNDU4MzZlOGFiNmY0\nNjYyMzMxN2ZmZjA0MDAifSx7ImltciI6MSwiZXZlbnRfdHlwZSI6MjE0NzQ4MzY1\nNSwiZGlnZXN0IjoiNzdhMGRhYjIzMTJiNGUxZTU3YTg0ZDg2NWEyMWU1YjJlZThk\nNjc3YTIxMDEyYWRhODE5ZDBhOTg5ODgwNzhkM2Q3NDBmNjM0NmJmZTBhYmFhOTM4\nY2EyMDQzOWE4ZDcxIiwiZXZlbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiNDM2MTZj\nNmM2OTZlNjcyMDQ1NDY0OTIwNDE3MDcwNmM2OTYzNjE3NDY5NmY2ZTIwNjY3MjZm\nNmQyMDQyNmY2Zjc0MjA0ZjcwNzQ2OTZmNmUifSx7ImltciI6MSwiZXZlbnRfdHlw\nZSI6NCwiZGlnZXN0IjoiMzk0MzQxYjcxODJjZDIyN2M1YzZiMDdlZjgwMDBjZGZk\nODYxMzZjNDI5MmI4ZTU3NjU3M2FkN2VkOWFlNDEwMTlmNTgxOGI0Yjk3MWM5ZWZm\nYzYwZTFhZDlmMTI4OWYwIiwiZXZlbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiMDAw\nMDAwMDAifSx7ImltciI6MiwiZXZlbnRfdHlwZSI6NiwiZGlnZXN0IjoiNzdjODI5\nYjY0ZDI2ZWJkODg5MDdlMDRjODY3NjBjNjJiOGFhNjg3N2Y5NGUwY2E5ZTA2YzUz\nOGY2MDkxYzdmNmIwYmI1ODI1YjM4OTk5MGYzYmY4OTM1M2ZjMDdhYTM3IiwiZXZl\nbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiZWQyMjNiOGYxYTAwMDAwMDRjNGY0MTQ0\nNDU0NDVmNDk0ZDQxNDc0NTNhM2E0YzZmNjE2NDRmNzA3NDY5NmY2ZTczMDAifSx7\nImltciI6MiwiZXZlbnRfdHlwZSI6NiwiZGlnZXN0IjoiMThmMzUzYTBjODc1MTYx\nMGIzOTM4Y2U1YjYzYjBkNWJmYWQwNDI0OTA2ODUwOGMwMmE4OWIwNjQ2MjlkNWEz\nNjE4M2NiNmFhNTlhYjFiNjk2OGVjYzc1NjNhNGY4ODUyIiwiZXZlbnQiOiIiLCJl\ndmVudF9wYXlsb2FkIjoiZWMyMjNiOGYwZDAwMDAwMDRjNjk2ZTc1NzgyMDY5NmU2\nOTc0NzI2NDAwIn0seyJpbXIiOjEsImV2ZW50X3R5cGUiOjIxNDc0ODM2NTUsImRp\nZ2VzdCI6IjIxNGIwYmVmMTM3OTc1NjAxMTM0NDg3Nzc0M2ZkYzJhNTM4MmJhYzZl\nNzAzNjJkNjI0Y2NmM2Y2NTQ0MDdjMWI0YmFkZjdkOGY5Mjk1ZGQzZGFiZGVmNjVi\nMjc2NzdlMCIsImV2ZW50IjoiIiwiZXZlbnRfcGF5bG9hZCI6IjQ1Nzg2OTc0MjA0\nMjZmNmY3NDIwNTM2NTcyNzY2OTYzNjU3MzIwNDk2ZTc2NmY2MzYxNzQ2OTZmNmUi\nfSx7ImltciI6MSwiZXZlbnRfdHlwZSI6MjE0NzQ4MzY1NSwiZGlnZXN0IjoiMGEy\nZTAxYzg1ZGVhZTcxOGE1MzBhZDhjNmQyMGE4NDAwOWJhYmU2Yzg5ODkyNjllOTUw\nZDhjZjQ0MGM2ZTk5NzY5NWU2NGQ0NTVjNDE3NGE2NTJjZDA4MGY2MjMwYjc0Iiwi\nZXZlbnQiOiIiLCJldmVudF9wYXlsb2FkIjoiNDU3ODY5NzQyMDQyNmY2Zjc0MjA1\nMzY1NzI3NjY5NjM2NTczMjA1MjY1NzQ3NTcyNmU2NTY0MjA3NzY5NzQ2ODIwNTM3\nNTYzNjM2NTczNzMifSx7ImltciI6MywiZXZlbnRfdHlwZSI6MTM0MjE3NzI5LCJk\naWdlc3QiOiJmOTk3NDAyMGVmNTA3MDY4MTgzMzEzZDBjYTgwOGUwZDFjYTliMmQx\nYWQwYzYxZjU3ODRlNzE1N2MzNjJjMDY1MzZmNWRkYWNkYWQ0NDUxNjkzZjQ4ZmNj\nNzJmZmY2MjQiLCJldmVudCI6InN5c3RlbS1wcmVwYXJpbmciLCJldmVudF9wYXls\nb2FkIjoiIn0seyJpbXIiOjMsImV2ZW50X3R5cGUiOjEzNDIxNzcyOSwiZGlnZXN0\nIjoiNWMxNDljODcxOTk3NWRjNjI4NWRlNThkOTRkYjdlNmE3NWM0NmU3OTZjMzE5\nYjc1MWRiOGVlMTRlNjc0OGI2YzI2MzhkMTNjZjEyZjU0Mzk2ZTA4Mjk5OTQ0NzY2\nNTM3IiwiZXZlbnQiOiJhcHAtaWQiLCJldmVudF9wYXlsb2FkIjoiMmMwYTBjOTZj\nYjZkYmQ2NTliZjE0NDZlMmYzZmNlNTgxNzJmZjkxYiJ9LHsiaW1yIjozLCJldmVu\ndF90eXBlIjoxMzQyMTc3MjksImRpZ2VzdCI6IjAxMDA3N2FjZjY0OGYwY2Q1YmU3\nNTgxMDdmOGVmYjY0YTZiOGRjMTdiM2Y3ZTg0MWVhZTIxZjQzOGVhODk1OTI0MThi\nNTViYmQ4OWRiMzJiMDdjYjg2NjhiOGJiOGQ4YyIsImV2ZW50IjoiY29tcG9zZS1o\nYXNoIiwiZXZlbnRfcGF5bG9hZCI6ImJjYmNjY2NmNDU3YThmMmRjZDgzN2I2MTVl\nZjU2ZjYzZWFhNzA3ZTM2NzVmMWVjZDA4ZWU4MWNiMDZlYzJiMjgifSx7ImltciI6\nMywiZXZlbnRfdHlwZSI6MTM0MjE3NzI5LCJkaWdlc3QiOiJmMDE4ZGRiOTU5YWEz\nN2E2NWM1ZGIzN2U1MzkxOTZmMTM0OWRlYzQzY2FmZTg0YmEzN2M3OTVlZmZiM2Ji\nMmMxZTE4MGNmMWM3OGY2ZDMwMjA4YWMzMDZhZTkxNTkwMGYiLCJldmVudCI6Imlu\nc3RhbmNlLWlkIiwiZXZlbnRfcGF5bG9hZCI6ImRiMTgzNWI5ZTdjMDdiN2QyNDc1\nYjUyYjRkZjM3ZTFjNThlYzY0YzIifSx7ImltciI6MywiZXZlbnRfdHlwZSI6MTM0\nMjE3NzI5LCJkaWdlc3QiOiI5OGJkN2U2YmQzOTUyNzIwYjY1MDI3ZmQ0OTQ4MzQw\nNDVkMDZiNGE3MTRiZjczN2EwNmI4NzQ2MzhiM2VhMDBmZjQwMmY3ZjU4M2UzZTNi\nMDVlOTIxYzg1NzA0MzNhYzYiLCJldmVudCI6ImJvb3QtbXItZG9uZSIsImV2ZW50\nX3BheWxvYWQiOiIifSx7ImltciI6MywiZXZlbnRfdHlwZSI6MTM0MjE3NzI5LCJk\naWdlc3QiOiJlOTc2NmE4YmFiOTQ3MzAxZmQ1NjA3OGJmZWVhYWYxZTFmMmU0ZGFl\nZTNkZGMyOGIxZmVmNzJhNTg4NzYwMDdjNDI0OGZmYWIzMzExYTA5YmU2YTJiN2Vj\nNWVhMmMyY2QiLCJldmVudCI6Im1yLWttcyIsImV2ZW50X3BheWxvYWQiOiIyYzQx\nMGIxNThmNTk0NTM3YTI5MmRkOGQwOGVhOWY5ZGQyZTRlZmYyMmQ0MzJhYzc4ZTMy\nNTk1ZWFhZGYwYTM1In0seyJpbXIiOjMsImV2ZW50X3R5cGUiOjEzNDIxNzcyOSwi\nZGlnZXN0IjoiOWU1NmUxMWU2MTlmZjcwNmIxYmY4MDA3ZmI0YTJhYTZlYjU1YTJh\nYTU3MGNlOGMxMTJhMDQ4NTU1NWQxZWZiODY5NjJiMTljZDcxZDIxYTVmOTExNjJl\nMTk5OTRjNWIxIiwiZXZlbnQiOiJvcy1pbWFnZS1oYXNoIiwiZXZlbnRfcGF5bG9h\nZCI6IjliNjliYjE2OThiYWNiYjY5ODU0MDlhMmMyNzJiY2I4OTJlMDljZGNlYTYz\nZDUzOTljNjc2OGI2N2QzZmY2NzcifSx7ImltciI6MywiZXZlbnRfdHlwZSI6MTM0\nMjE3NzI5LCJkaWdlc3QiOiJjMjFhODhiOGFhYzk4NDdjNmE1OTUxMTAyNDhlNGYy\nMDA2ZjAyMmYwMTA2Y2I4MWJhZmU4NDkyYThmM2FkYWYyMmFhY2YyNWM5Yzc4MGZi\nMGIxMjI3MWZiN2RiYzA5YWYiLCJldmVudCI6ImtleS1wcm92aWRlciIsImV2ZW50\nX3BheWxvYWQiOiI3YjIyNmU2MTZkNjUyMjNhMjI2YjZkNzMyMjJjMjI2OTY0MjIz\nYTIyMzMzMDM1MzkzMzMwMzEzMzMwMzYzMDM3MzI2MTM4MzYzNDM4NjM2NTMzNjQz\nMDMyMzAzMTMwMzYzMDM4MzI2MTM4MzYzNDM4NjM2NTMzNjQzMDMzMzAzMTMwMzcz\nMDMzMzQzMjMwMzAzMDM0MzIzMjM4NjYzODMwMzAzNTM5MzA2MTMxMzAzNDM0MzI2\nMzYyNjEzOTY0MzA2NTM2NjE2NDYyMzI2NjYxMzk2NjMxMzkzNTY1NjU2MTM5NjUz\nNzM1NjUzMjMzNjQ2NDMzMzUzOTM5MzA2NDM1MzI2MjM1Mzk2NDY0NjEzMjM0MzEz\nNTYxMzYzMzM2MzczNDYzMzMzODYxNjQ2NTYyNjQ2NTM0NjY2NjY0MzQ2NDM0NjIz\nMjM2MzU2MjY2MzgzMTM4MzkzODM1MzkzMzMzMzgzMjMwNjMzODMwMzUzMzYzNjU2\nNTMzNjM2NTMyMzk2MjM1NjY2MjMwNjY2MjYzNjI2MzIyN2QifSx7ImltciI6Mywi\nZXZlbnRfdHlwZSI6MTM0MjE3NzI5LCJkaWdlc3QiOiJiYTUxMTA0NjM2OTAwMjY4\nYjBlMDU5ZmEzZDI2NjQxOWQwNzlkMWU5NGFlYTI2ZmI5ZmNiYjhkNzY0YmY0Yzg5\nYTY3YWMyNzFiOGEwZDFhMzk4OTk0NTEzMmExMTFmYzciLCJldmVudCI6InN0b3Jh\nZ2UtZnMiLCJldmVudF9wYXlsb2FkIjoiN2E2NjczIn0seyJpbXIiOjMsImV2ZW50\nX3R5cGUiOjEzNDIxNzcyOSwiZGlnZXN0IjoiMWE3NmIyYTgwYTBiZTcxZWFlNTlm\nODA5NDVkODc2MzUxYTdhM2ZiOGU5ZmQxZmYxY2VkZTU3MzRhYTg0ZWExMWZkNzJi\nNGVkZmJiNmYwNGU1YTg1ZWRkMTE0Yzc1MWJkIiwiZXZlbnQiOiJzeXN0ZW0tcmVh\nZHkiLCJldmVudF9wYXlsb2FkIjoiIn1dMCQGCisGAQQBg+c9AQMEFgQULAoMlstt\nvWWb8URuLz/OWBcv+RswGgYKKwYBBAGD5z0BBAQMBAphcHA6Y3VzdG9tMAoGCCqG\nSM49BAMCA0cAMEQCIEf8L/oORsE38iX6fFTbNf+sg10FkCdqMrcqgezbEqjNAiA0\nj6TIcffUa/nswpPrdur5inPDcqOgHtL7l8kJEF4x7w==\n-----END CERTIFICATE-----\n\n-----BEGIN CERTIFICATE-----\nMIIB2jCCAYCgAwIBAgIUfUyww8Lm/TelHbmFpkCQESdqev4wCgYIKoZIzj0EAwIw\nKTEPMA0GA1UECgwGRHN0YWNrMRYwFAYDVQQDDA1Ec3RhY2sgS01TIENBMB4XDTc1\nMDEwMTAwMDAwMFoXDTM2MDUxMDE0MzQyN1owKTEPMA0GA1UECgwGRHN0YWNrMRYw\nFAYDVQQDDA1Ec3RhY2sgQXBwIENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE\nI+cv8ZBuIY5yjZoe5LQMyUaVwI0pzZ//FSxnDxnt4rIS74UyPgihLYrDVoug6wEw\nb+dCxpOE8xK9akQzDQO+66OBhTCBgjAPBgNVHQ8BAf8EBQMDB4YAMB0GA1UdDgQW\nBBQ9uOLUf1T5QF45iOWYd/bEzqQM8DASBgNVHRMBAf8ECDAGAQH/AgEAMCQGCisG\nAQQBg+c9AQMEFgQULAoMlsttvWWb8URuLz/OWBcv+RswFgYKKwYBBAGD5z0BBAQI\nBAZhcHA6Y2EwCgYIKoZIzj0EAwIDSAAwRQIhANK1XRsETv0KrNxdkgcayHiIp1KU\nJHnkf9ty73bJJHdFAiAnsyO591g4IjSoFlu42Q1uZQbxmjezvV0Kiu/DNp0W9A==\n-----END CERTIFICATE-----\n\n-----BEGIN CERTIFICATE-----\nMIIBmjCCAUCgAwIBAgIUJJnb0BgmzgHqwrG4WoZGbNQ5vZAwCgYIKoZIzj0EAwIw\nKTEPMA0GA1UECgwGRHN0YWNrMRYwFAYDVQQDDA1Ec3RhY2sgS01TIENBMB4XDTc1\nMDEwMTAwMDAwMFoXDTM2MDUwNDA0MzYzNlowKTEPMA0GA1UECgwGRHN0YWNrMRYw\nFAYDVQQDDA1Ec3RhY2sgS01TIENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE\nIo+ABZChBELLqdDmrbL6nxle6p514j3TWZDVK1ndokFaY2dMOK3r3k/9TUsmW/gY\nmFkzggyAU87jzim1+w+8vKNGMEQwDwYDVR0PAQH/BAUDAweGADAdBgNVHQ4EFgQU\nPSTxEnC0eBDGc3vsKYCnz3UaKzowEgYDVR0TAQH/BAgwBgEB/wIBATAKBggqhkjO\nPQQDAgNIADBFAiEA/yL9WOuyNrBgUM6IlQOehWANdAUt15QkOfQK1z7s8X8CIB5H\nScTTPTylcw8tjlpElDW8aj1Jiaqqv/forygjlW4/\n-----END CERTIFICATE-----\n",
+    "app_id": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+    "app_name": "dstack-nvidia-0.5.5",
+    "compose_hash": "bcbccccf457a8f2dcd837b615ef56f63eaa707e3675f1ecd08ee81cb06ec2b28",
+    "device_id": "13c1a5dd95b7240433aefc3a955190c811a411044f4997b036bbc800d8b516d3",
+    "instance_id": "db1835b9e7c07b7d2475b52b4df37e1c58ec64c2",
+    "key_provider_info": "{\"name\":\"kms\",\"id\":\"3059301306072a8648ce3d020106082a8648ce3d03010703420004228f800590a10442cba9d0e6adb2fa9f195eea9e75e23dd35990d52b59dda2415a63674c38adebde4ffd4d4b265bf818985933820c8053cee3ce29b5fb0fbcbc\"}",
+    "mr_aggregated": "4a563440a5cffa0e91aab18f12001438328b397428a719235ff154ccf8fae435",
+    "os_image_hash": "9b69bb1698bacbb6985409a2c272bcb892e09cdcea63d5399c6768b67d3ff677",
+    "tcb_info": {
+      "app_compose": "{\n    \"manifest_version\": 2,\n    \"name\": \"dstack-nvidia-0.5.5\",\n    \"runner\": \"docker-compose\",\n    \"docker_compose_file\": \"services:\\n  # Datadog Service Definition\\n  datadog-agent:\\n    image: datadog/agent@sha256:5556fb80b952832719a76b016f905616c76ee0989a239c4680c6220148e865d6\\n    container_name: datadog-agent\\n    environment:\\n      - DD_API_KEY=${DD_API_KEY}\\n      - DD_SITE=us3.datadoghq.com\\n      - DD_ENV=prod\\n      - DD_LOGS_ENABLED=true\\n      - DD_LOGS_CONFIG_CONTAINER_COLLECT_ALL=true\\n      - DD_CONTAINER_EXCLUDE_LOGS=name:datadog-agent\\n      - DD_PROCESS_AGENT_ENABLED=true\\n      - DD_DOGSTATSD_NON_LOCAL_TRAFFIC=true\\n      - DD_HOSTNAME=$DD_HOSTNAME\\n      - DD_OTLP_CONFIG_RECEIVER_PROTOCOLS_GRPC_ENDPOINT=0.0.0.0:4317\\n    volumes:\\n      - /var/run/docker.sock:/var/run/docker.sock:ro\\n      - /proc/:/host/proc/:ro\\n      - /sys/fs/cgroup/:/host/sys/fs/cgroup:ro\\n      - /var/lib/docker/containers:/var/lib/docker/containers:ro\\n      - /run/log/journal:/run/log/journal:ro\\n      - /run/systemd/:/host/run/systemd/:ro\\n    configs:\\n      - source: journald_config_file\\n        target: /etc/datadog-agent/conf.d/journald.d/conf.yaml\\n        mode: 0755\\n    restart: unless-stopped\\n    logging: \\n        driver: \\\"json-file\\\"\\n        options:\\n          max-size: \\\"100m\\\"\\n          max-file: \\\"10\\\"\\n          labels: \\\"com.datadoghq.ad.logs\\\"\\n\\n\\n  certbot:\\n    image: certbot/dns-cloudflare@sha256:742dbd2e61c8709b930712c38958386c3cb3928e09eeb1f1e490600c127e2edb\\n    restart: unless-stopped\\n    entrypoint: \\\"/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'\\\"\\n    volumes:\\n      - certs:/etc/letsencrypt\\n    configs:\\n      - source: cloudflare_credentials\\n        target: /etc/cloudflare/credentials.ini\\n        mode: 0600\\n    depends_on:\\n      certbot-init:\\n        condition: service_completed_successfully\\n\\n  certbot-init:\\n    image: certbot/dns-cloudflare@sha256:742dbd2e61c8709b930712c38958386c3cb3928e09eeb1f1e490600c127e2edb\\n    volumes:\\n      - certs:/etc/letsencrypt\\n    restart: on-failure\\n    configs:\\n      - source: cloudflare_credentials\\n        target: /etc/cloudflare/credentials.ini\\n        mode: 0600\\n    command: >\\n      certonly\\n      --dns-cloudflare\\n      --dns-cloudflare-credentials /etc/cloudflare/credentials.ini\\n      --dns-cloudflare-propagation-seconds 30\\n      --email ${CERTBOT_EMAIL}\\n      --agree-tos --no-eff-email --non-interactive\\n      --key-type ecdsa --elliptic-curve secp256r1\\n      --cert-name completions.near.ai\\n      -d \\\"*.completions.near.ai\\\"\\n      -d \\\"completions.near.ai\\\"\\n      -d \\\"$HOSTNAME.hosts.near.ai\\\"\\n\\n  compose-manager:\\n    image: nearaidev/compose-manager@sha256:7ba45e3055f05859fee24c6d79eb9e9a13fdc192289c32a06112863e41578f32\\n    container_name: compose-manager\\n    restart: unless-stopped\\n    ports:\\n      - \\\"8080:8080\\\"\\n    # pid:host + CAP_SYS_ADMIN let compose-manager run `nsenter -t 1 ... systemctl`\\n    # to manage CVM host services (e.g. dstack-guest-agent) via /dstack-agent/:action.\\n    pid: host\\n    cap_add:\\n      - SYS_ADMIN\\n    volumes:\\n      - /var/run/docker.sock:/var/run/docker.sock\\n      - /var/run/dstack.sock:/var/run/dstack.sock\\n      - /dstack/.host-shared/.decrypted-env:/app/.env:ro\\n      - work:/app/work\\n    environment:\\n      - GITHUB_REPO=https://github.com/nearai/cvm-compose-files\\n      - BEARER_TOKEN=${BEARER_TOKEN}\\n      - WORK_DIR=/app/work\\n      - MIN_TAG_AGE_HOURS=2\\n      - ENV_FILES=/app/.env\\n    labels:\\n      com.datadoghq.ad.logs: '[{\\\"source\\\": \\\"compose-manager\\\", \\\"service\\\": \\\"compose-manager\\\"}]'\\n\\nvolumes:\\n  work:\\n  # This volume can be re-used by other containers that need access to the TLS certificates.\\n  certs:\\n    name: certs\\n\\nconfigs:\\n  cloudflare_credentials:\\n    content: |\\n      dns_cloudflare_api_token = ${CLOUDFLARE_API_TOKEN}\\n\\n  # Journald conf file content\\n  journald_config_file:\\n    content: |\\n      logs:\\n        - type: journald\\n          container_mode: true\\n          # TODO: Add filters to reduce log volume\\n\",\n    \"kms_enabled\": true,\n    \"gateway_enabled\": true,\n    \"local_key_provider_enabled\": false,\n    \"key_provider_id\": \"\",\n    \"public_logs\": false,\n    \"public_sysinfo\": true,\n    \"allowed_envs\": [\n        \"BEARER_TOKEN\",\n        \"AWS_REGION\",\n        \"AWS_ACCESS_KEY_ID\",\n        \"AWS_SECRET_ACCESS_KEY\",\n        \"AWS_S3_BUCKET\",\n        \"CERTBOT_EMAIL\",\n        \"CLOUDFLARE_API_TOKEN\",\n        \"DD_API_KEY\",\n        \"HUGGING_FACE_HUB_TOKEN\",\n        \"PROXY_TOKEN\",\n        \"ENV\",\n        \"HOST_IP\",\n        \"DD_HOSTNAME\",\n        \"HOSTNAME\"\n    ],\n    \"no_instance_id\": false,\n    \"secure_time\": false,\n    \"pre_launch_script\": \"#!/bin/bash\\nexport ENCRYPTION_KEY=$(cat /dstack/.host-shared/.appkeys.json | jq -r .k256_key)\\n\"\n}",
+      "compose_hash": "bcbccccf457a8f2dcd837b615ef56f63eaa707e3675f1ecd08ee81cb06ec2b28",
+      "device_id": "13c1a5dd95b7240433aefc3a955190c811a411044f4997b036bbc800d8b516d3",
+      "event_log": [
+        {
+          "digest": "60a36090e82db2aa82a7abb76029b9ace69e9f0811b7029ff25a26a2e8b91c182696df92674ab571c42093383e1fcc71",
+          "event": "",
+          "event_payload": "095464785461626c65000100000000000000af96bb93f2b9b84e9462e0ba745642360090800000000000",
+          "event_type": 2147483659,
+          "imr": 0
+        },
+        {
+          "digest": "344bc51c980ba621aaa00da3ed7436f7d6e549197dfe699515dfa2c6583d95e6412af21c097d473155875ffd561d6790",
+          "event": "",
+          "event_payload": "2946762858585858585858582d585858582d585858582d585858582d58585858585858585858585829000000c0ff000000000040080000000000",
+          "event_type": 2147483658,
+          "imr": 0
+        },
+        {
+          "digest": "9dc3a1f80bcec915391dcda5ffbb15e7419f77eab462bbf72b42166fb70d50325e37b36f93537a863769bcf9bedae6fb",
+          "event": "",
+          "event_payload": "61dfe48bca93d211aa0d00e098032b8c0a00000000000000000000000000000053006500630075007200650042006f006f007400",
+          "event_type": 2147483649,
+          "imr": 0
+        },
+        {
+          "digest": "6f2e3cbc14f9def86980f5f66fd85e99d63e69a73014ed8a5633ce56eca5b64b692108c56110e22acadcef58c3250f1b",
+          "event": "",
+          "event_payload": "61dfe48bca93d211aa0d00e098032b8c0200000000000000000000000000000050004b00",
+          "event_type": 2147483649,
+          "imr": 0
+        },
+        {
+          "digest": "d607c0efb41c0d757d69bca0615c3a9ac0b1db06c557d992e906c6b7dee40e0e031640c7bfd7bcd35844ef9edeadc6f9",
+          "event": "",
+          "event_payload": "61dfe48bca93d211aa0d00e098032b8c030000000000000000000000000000004b0045004b00",
+          "event_type": 2147483649,
+          "imr": 0
+        },
+        {
+          "digest": "08a74f8963b337acb6c93682f934496373679dd26af1089cb4eaf0c30cf260a12e814856385ab8843e56a9acea19e127",
+          "event": "",
+          "event_payload": "cbb219d73a3d9645a3bcdad00e67656f0200000000000000000000000000000064006200",
+          "event_type": 2147483649,
+          "imr": 0
+        },
+        {
+          "digest": "18cc6e01f0c6ea99aa23f8a280423e94ad81d96d0aeb5180504fc0f7a40cb3619dd39bd6a95ec1680a86ed6ab0f9828d",
+          "event": "",
+          "event_payload": "cbb219d73a3d9645a3bcdad00e67656f03000000000000000000000000000000640062007800",
+          "event_type": 2147483649,
+          "imr": 0
+        },
+        {
+          "digest": "394341b7182cd227c5c6b07ef8000cdfd86136c4292b8e576573ad7ed9ae41019f5818b4b971c9effc60e1ad9f1289f0",
+          "event": "",
+          "event_payload": "00000000",
+          "event_type": 4,
+          "imr": 0
+        },
+        {
+          "digest": "067dbea869d662401cfc128612472b688899b95fe801cec9e473388f2ce8d00c56b85a4511051a8d3eea3a345aa3d943",
+          "event": "",
+          "event_payload": "414350492044415441",
+          "event_type": 10,
+          "imr": 0
+        },
+        {
+          "digest": "e618ef92fa90877695c4be4ce94e99f8cac644f92d40900a6141154f19ee8fefde460f8c75acac5dec3f4b1545259bcf",
+          "event": "",
+          "event_payload": "414350492044415441",
+          "event_type": 10,
+          "imr": 0
+        },
+        {
+          "digest": "36ab67305a05ca84327abeb3ac4c3fff28dd40e23c4a2549d8c56914dafc6afac28b4687810e1ad91871a95de224c601",
+          "event": "",
+          "event_payload": "414350492044415441",
+          "event_type": 10,
+          "imr": 0
+        },
+        {
+          "digest": "d2403b9bc55f18b6b9136a293417b1cbe3bee633e4f6966c9ff7b7cced9ced17d5240ea79331023b01a545950161ee13",
+          "event": "",
+          "event_payload": "1820fe7a00000000006485000000000000000000000000002a000000000000000403140072f728144ab61e44b8c39ebdd7f893c7040412006b00650072006e0065006c0000007fff0400",
+          "event_type": 2147483651,
+          "imr": 1
+        },
+        {
+          "digest": "1dd6f7b457ad880d840d41c961283bab688e94e4b59359ea45686581e90feccea3c624b1226113f824f315eb60ae0a7c",
+          "event": "",
+          "event_payload": "61dfe48bca93d211aa0d00e098032b8c0900000000000000020000000000000042006f006f0074004f0072006400650072000000",
+          "event_type": 2147483650,
+          "imr": 0
+        },
+        {
+          "digest": "23ada07f5261f12f34a0bd8e46760962d6b4d576a416f1fea1c64bc656b1d28eacf7047ae6e967c58fd2a98bfa74c298",
+          "event": "",
+          "event_payload": "61dfe48bca93d211aa0d00e098032b8c08000000000000003e0000000000000042006f006f0074003000300030003000090100002c0055006900410070007000000004071400c9bdb87cebf8344faaea3ee4af6516a10406140021aa2c4614760345836e8ab6f46623317fff0400",
+          "event_type": 2147483650,
+          "imr": 0
+        },
+        {
+          "digest": "77a0dab2312b4e1e57a84d865a21e5b2ee8d677a21012ada819d0a98988078d3d740f6346bfe0abaa938ca20439a8d71",
+          "event": "",
+          "event_payload": "43616c6c696e6720454649204170706c69636174696f6e2066726f6d20426f6f74204f7074696f6e",
+          "event_type": 2147483655,
+          "imr": 1
+        },
+        {
+          "digest": "394341b7182cd227c5c6b07ef8000cdfd86136c4292b8e576573ad7ed9ae41019f5818b4b971c9effc60e1ad9f1289f0",
+          "event": "",
+          "event_payload": "00000000",
+          "event_type": 4,
+          "imr": 1
+        },
+        {
+          "digest": "77c829b64d26ebd88907e04c86760c62b8aa6877f94e0ca9e06c538f6091c7f6b0bb5825b389990f3bf89353fc07aa37",
+          "event": "",
+          "event_payload": "ed223b8f1a0000004c4f414445445f494d4147453a3a4c6f61644f7074696f6e7300",
+          "event_type": 6,
+          "imr": 2
+        },
+        {
+          "digest": "18f353a0c8751610b3938ce5b63b0d5bfad04249068508c02a89b064629d5a36183cb6aa59ab1b6968ecc7563a4f8852",
+          "event": "",
+          "event_payload": "ec223b8f0d0000004c696e757820696e6974726400",
+          "event_type": 6,
+          "imr": 2
+        },
+        {
+          "digest": "214b0bef1379756011344877743fdc2a5382bac6e70362d624ccf3f654407c1b4badf7d8f9295dd3dabdef65b27677e0",
+          "event": "",
+          "event_payload": "4578697420426f6f7420536572766963657320496e766f636174696f6e",
+          "event_type": 2147483655,
+          "imr": 1
+        },
+        {
+          "digest": "0a2e01c85deae718a530ad8c6d20a84009babe6c8989269e950d8cf440c6e997695e64d455c4174a652cd080f6230b74",
+          "event": "",
+          "event_payload": "4578697420426f6f742053657276696365732052657475726e656420776974682053756363657373",
+          "event_type": 2147483655,
+          "imr": 1
+        },
+        {
+          "digest": "f9974020ef507068183313d0ca808e0d1ca9b2d1ad0c61f5784e7157c362c06536f5ddacdad4451693f48fcc72fff624",
+          "event": "system-preparing",
+          "event_payload": "",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "5c149c8719975dc6285de58d94db7e6a75c46e796c319b751db8ee14e6748b6c2638d13cf12f54396e08299944766537",
+          "event": "app-id",
+          "event_payload": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "010077acf648f0cd5be758107f8efb64a6b8dc17b3f7e841eae21f438ea89592418b55bbd89db32b07cb8668b8bb8d8c",
+          "event": "compose-hash",
+          "event_payload": "bcbccccf457a8f2dcd837b615ef56f63eaa707e3675f1ecd08ee81cb06ec2b28",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "f018ddb959aa37a65c5db37e539196f1349dec43cafe84ba37c795effb3bb2c1e180cf1c78f6d30208ac306ae915900f",
+          "event": "instance-id",
+          "event_payload": "db1835b9e7c07b7d2475b52b4df37e1c58ec64c2",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "98bd7e6bd3952720b65027fd494834045d06b4a714bf737a06b874638b3ea00ff402f7f583e3e3b05e921c8570433ac6",
+          "event": "boot-mr-done",
+          "event_payload": "",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "e9766a8bab947301fd56078bfeeaaf1e1f2e4daee3ddc28b1fef72a58876007c4248ffab3311a09be6a2b7ec5ea2c2cd",
+          "event": "mr-kms",
+          "event_payload": "2c410b158f594537a292dd8d08ea9f9dd2e4eff22d432ac78e32595eaadf0a35",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "9e56e11e619ff706b1bf8007fb4a2aa6eb55a2aa570ce8c112a0485555d1efb86962b19cd71d21a5f91162e19994c5b1",
+          "event": "os-image-hash",
+          "event_payload": "9b69bb1698bacbb6985409a2c272bcb892e09cdcea63d5399c6768b67d3ff677",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "c21a88b8aac9847c6a595110248e4f2006f022f0106cb81bafe8492a8f3adaf22aacf25c9c780fb0b12271fb7dbc09af",
+          "event": "key-provider",
+          "event_payload": "7b226e616d65223a226b6d73222c226964223a223330353933303133303630373261383634386365336430323031303630383261383634386365336430333031303730333432303030343232386638303035393061313034343263626139643065366164623266613966313935656561396537356532336464333539393064353262353964646132343135613633363734633338616465626465346666643464346232363562663831383938353933333832306338303533636565336365323962356662306662636263227d",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "ba51104636900268b0e059fa3d266419d079d1e94aea26fb9fcbb8d764bf4c89a67ac271b8a0d1a3989945132a111fc7",
+          "event": "storage-fs",
+          "event_payload": "7a6673",
+          "event_type": 134217729,
+          "imr": 3
+        },
+        {
+          "digest": "1a76b2a80a0be71eae59f80945d876351a7a3fb8e9fd1ff1cede5734aa84ea11fd72b4edfbb6f04e5a85edd114c751bd",
+          "event": "system-ready",
+          "event_payload": "",
+          "event_type": 134217729,
+          "imr": 3
+        }
+      ],
+      "mrtd": "b24d3b24e9e3c16012376b52362ca09856c4adecb709d5fac33addf1c47e193da075b125b6c364115771390a5461e217",
+      "os_image_hash": "9b69bb1698bacbb6985409a2c272bcb892e09cdcea63d5399c6768b67d3ff677",
+      "rtmr0": "bc122d143ab768565ba5c3774ff5f03a63c89a4df7c1f5ea38d3bd173409d14f8cbdcc36d40e703cccb996a9d9687590",
+      "rtmr1": "c0445b704e4c48139496ae337423ddb1dcee3a673fd5fb60a53d562f127d235f11de471a7b4ee12c9027c829786757dc",
+      "rtmr2": "564622c7ddc55a53272cc9f0956d29b3f7e0dd18ede432720b71fd89e5b5d76cb0b99be7b7ff2a6a92b89b6b01643135",
+      "rtmr3": "1c94df846a4b9bd23f62e1a9d41cfb4c3239e570025615d1eb60cd1ec018a777cdbcef8beee0d2b3a9ded476c3333cd1"
+    },
+    "vm_config": "{\"spec_version\":1,\"os_image_hash\":\"9b69bb1698bacbb6985409a2c272bcb892e09cdcea63d5399c6768b67d3ff677\",\"cpu_count\":64,\"memory_size\":2199023255552,\"qemu_version\":\"9.2.1\",\"pci_hole64_size\":1125899906842624,\"hugepages\":false,\"num_gpus\":8,\"num_nvswitches\":4,\"hotplug_off\":true,\"image\":\"dstack-nvidia-0.5.5\"}"
+  },
+  "all_attestations": [
+    {
+      "model_name": "openai/gpt-oss-120b",
+      "signing_address": "0x56d070df1c6be444b007839ef9cf67cec7c12b8b",
+      "signing_algo": "ecdsa",
+      "signing_public_key": "a31cdd4f9443ebc31cffffd688621a1807b41c2f02649881d010f881de0a5e94ddec8208161e8fa02ae3748700bf8be3333c9683d6e13e0bbe7e92ee7d2243b8",
+      "request_nonce": "63c1fb7a03f677c16fd97eeb0e1cc0fc1346d6297e85f0c84307c1039b0e5594",
+      "intel_quote": "0000000000000000",
+      "nvidia_payload": "<trimmed>",
+      "event_log": "<trimmed>",
+      "info": {
+        "compose_hash": "bcbccccf457a8f2dcd837b615ef56f63eaa707e3675f1ecd08ee81cb06ec2b28"
+      }
+    }
+  ],
+  "compose_manager_attestation": {
+    "actions": [
+      {
+        "action": "compose_up",
+        "commit": "97ced26e216e91691bcd0a4eab5d4ec8a28a6b21",
+        "file": "small-models.yaml",
+        "file_sha256": "d61953d66f867fbc843761f8011ef5da893a2a4242280bec8744912479670e91",
+        "services": [
+          "vllm-qwen3-30b",
+          "vllm-gpt-oss-1",
+          "vllm-gpt-oss-2",
+          "vllm-qwen3-6-35b",
+          "vllm-gemma-4-31b",
+          "vllm-flux-2-klein-4b-1",
+          "vllm-qwen3-vl",
+          "vllm-qwen3-embeddings",
+          "vllm-qwen3-reranker",
+          "vllm-whisper3-large",
+          "privacy-filter"
+        ],
+        "tag": "v0.0.148",
+        "timestamp": "2026-05-13T14:48:46.980989899+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "df1084b688319b97a52d2ed11d616eb0ba9ea859",
+        "file": "small-models.yaml",
+        "file_sha256": "72337dfbc7b5abe850b7b6a2277a0df444ff8d884f735bc67fbe018afd7f5869",
+        "services": [
+          "vllm-qwen3-6-35b",
+          "vllm-gemma-4-31b",
+          "vllm-qwen3-vl",
+          "vllm-flux-2-klein-4b-1",
+          "vllm-qwen3-embeddings",
+          "vllm-qwen3-reranker",
+          "vllm-whisper3-large"
+        ],
+        "tag": "v0.0.149",
+        "timestamp": "2026-05-13T15:35:13.062316035+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "df1084b688319b97a52d2ed11d616eb0ba9ea859",
+        "file": "small-models.yaml",
+        "file_sha256": "72337dfbc7b5abe850b7b6a2277a0df444ff8d884f735bc67fbe018afd7f5869",
+        "services": [
+          "nginx",
+          "model-proxy-registrar",
+          "vllm-proxy-qwen3-30b",
+          "vllm-proxy-gpt-oss",
+          "vllm-proxy-qwen3-6-35b",
+          "vllm-proxy-gemma-4-31b",
+          "vllm-proxy-flux",
+          "vllm-proxy-qwen3-vl",
+          "vllm-proxy-qwen3-embeddings",
+          "vllm-proxy-qwen3-reranker",
+          "vllm-proxy-whisper3-large",
+          "vllm-proxy-privacy-filter",
+          "dcgm-exporter"
+        ],
+        "tag": "v0.0.149",
+        "timestamp": "2026-05-13T16:45:08.385293317+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "49095532adb951b5f98905d6e25275cb43ebd583",
+        "file": "small-models.yaml",
+        "file_sha256": "b82812b55d6e7c54e6f24980cda2ab4473f1ef183d92fdbcdef7035c6a4cdcc2",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.150",
+        "timestamp": "2026-05-13T17:38:14.462510316+00:00"
+      },
+      {
+        "action": "compose_down",
+        "commit": "1b74c30b3d47fc6df7a5d98e285ea2a76d0ff833",
+        "file": "small-models.yaml",
+        "services": [
+          "vllm-gemma-4-31b"
+        ],
+        "tag": "v0.0.151",
+        "timestamp": "2026-05-14T21:50:18.021751674+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "1b74c30b3d47fc6df7a5d98e285ea2a76d0ff833",
+        "file": "small-models.yaml",
+        "file_sha256": "f487f2bcb25f29f68701e077bfb7b3e06760324ec9bdd8e9845806c0a3f1e6bf",
+        "services": [
+          "vllm-gemma-4-31b"
+        ],
+        "tag": "v0.0.151",
+        "timestamp": "2026-05-14T21:50:34.867138991+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4fc57b1a1f14f8a8c7bee9f49eafab84435ec012",
+        "file": "small-models.yaml",
+        "file_sha256": "f0e467440b68f82fd36ec3b040adad77bc3b9c1db041cdde0015cf9419cea97a",
+        "services": [
+          "vllm-qwen3-30b",
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.156",
+        "timestamp": "2026-05-15T11:07:13.437951693+00:00"
+      },
+      {
+        "action": "docker_restart",
+        "container": "vllm-qwen3-6-35b",
+        "timestamp": "2026-05-15T11:08:25.064923774+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4fc57b1a1f14f8a8c7bee9f49eafab84435ec012",
+        "file": "small-models.yaml",
+        "file_sha256": "f0e467440b68f82fd36ec3b040adad77bc3b9c1db041cdde0015cf9419cea97a",
+        "services": [
+          "vllm-qwen3-30b",
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.156",
+        "timestamp": "2026-05-15T11:08:52.595869012+00:00"
+      },
+      {
+        "action": "compose_down",
+        "commit": "4fc57b1a1f14f8a8c7bee9f49eafab84435ec012",
+        "file": "small-models.yaml",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.156",
+        "timestamp": "2026-05-15T11:09:36.513896366+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4fc57b1a1f14f8a8c7bee9f49eafab84435ec012",
+        "file": "small-models.yaml",
+        "file_sha256": "f0e467440b68f82fd36ec3b040adad77bc3b9c1db041cdde0015cf9419cea97a",
+        "services": [
+          "vllm-qwen3-30b",
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.156",
+        "timestamp": "2026-05-15T11:09:51.862410796+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "ce3c022fa07059e2151ecf1227f475cdd93bcd9d",
+        "file": "small-models.yaml",
+        "file_sha256": "efe37a500f4faf46a9bda6f971be18c6da1c2d3623529ffd91eb2df89cfe966e",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.157",
+        "timestamp": "2026-05-15T18:15:07.810002551+00:00"
+      },
+      {
+        "action": "compose_down",
+        "commit": "ce3c022fa07059e2151ecf1227f475cdd93bcd9d",
+        "file": "small-models.yaml",
+        "services": [
+          "vllm-gemma-4-31b"
+        ],
+        "tag": "v0.0.157",
+        "timestamp": "2026-05-15T18:23:12.086801163+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "ce3c022fa07059e2151ecf1227f475cdd93bcd9d",
+        "file": "small-models.yaml",
+        "file_sha256": "efe37a500f4faf46a9bda6f971be18c6da1c2d3623529ffd91eb2df89cfe966e",
+        "services": [
+          "vllm-gemma-4-31b"
+        ],
+        "tag": "v0.0.157",
+        "timestamp": "2026-05-15T18:23:32.071095980+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "3ae8a284b9cc096cafc3ca25766b1c2d9710edfb",
+        "file": "small-models.yaml",
+        "file_sha256": "ba721f1386d11641ca168a24d0766ea69fa1b1d7b5f0f178635d7f772229ed53",
+        "tag": "v0.0.158",
+        "timestamp": "2026-05-18T09:48:56.664646113+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "3ae8a284b9cc096cafc3ca25766b1c2d9710edfb",
+        "file": "small-models.yaml",
+        "file_sha256": "ba721f1386d11641ca168a24d0766ea69fa1b1d7b5f0f178635d7f772229ed53",
+        "tag": "v0.0.158",
+        "timestamp": "2026-05-18T09:51:56.359828449+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "64fff09aef51e9e55b9fed6c503bb4271dbdd12d",
+        "file": "small-models.yaml",
+        "file_sha256": "bf74336057426af7bd3682920e67fd86c03cccdd17b356eefeb54c2840f66471",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.159",
+        "timestamp": "2026-05-18T15:28:53.652923542+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "67c549253dcf2af7dddae8d4008acb56e2ddef4c",
+        "file": "small-models.yaml",
+        "file_sha256": "f0e467440b68f82fd36ec3b040adad77bc3b9c1db041cdde0015cf9419cea97a",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.160",
+        "timestamp": "2026-05-18T19:13:33.373628267+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4888ba242f222ef3c0c6e610b3205a0ef1572c32",
+        "file": "small-models.yaml",
+        "file_sha256": "396ad1ec17261bcfae996c47e20d955b98f2ccc764c17aa42754b38f8ab7fca1",
+        "services": [
+          "vllm-proxy-qwen3-30b",
+          "vllm-proxy-gpt-oss",
+          "vllm-proxy-qwen3-6-35b",
+          "vllm-proxy-gemma-4-31b",
+          "vllm-proxy-flux",
+          "vllm-proxy-qwen3-vl",
+          "vllm-proxy-qwen3-embeddings",
+          "vllm-proxy-qwen3-reranker",
+          "vllm-proxy-whisper3-large",
+          "vllm-proxy-privacy-filter",
+          "nginx"
+        ],
+        "tag": "v0.0.161",
+        "timestamp": "2026-05-19T12:41:35.257643877+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4888ba242f222ef3c0c6e610b3205a0ef1572c32",
+        "file": "small-models.yaml",
+        "file_sha256": "396ad1ec17261bcfae996c47e20d955b98f2ccc764c17aa42754b38f8ab7fca1",
+        "services": [
+          "vllm-proxy-qwen3-30b",
+          "vllm-proxy-gpt-oss",
+          "vllm-proxy-qwen3-6-35b",
+          "vllm-proxy-gemma-4-31b",
+          "vllm-proxy-flux",
+          "vllm-proxy-qwen3-vl",
+          "vllm-proxy-qwen3-embeddings",
+          "vllm-proxy-qwen3-reranker",
+          "vllm-proxy-whisper3-large",
+          "vllm-proxy-privacy-filter",
+          "nginx"
+        ],
+        "tag": "v0.0.161",
+        "timestamp": "2026-05-19T12:50:42.671895863+00:00"
+      },
+      {
+        "action": "compose_down",
+        "commit": "4888ba242f222ef3c0c6e610b3205a0ef1572c32",
+        "file": "small-models.yaml",
+        "services": [
+          "vllm-qwen3-6-35b"
+        ],
+        "tag": "v0.0.161",
+        "timestamp": "2026-05-19T13:50:32.553829289+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "d1d62af052c771d33edf0eb9d8ca1196f33b5c90",
+        "file": "small-models.yaml",
+        "file_sha256": "394175d61205e665f6b1050627572768b1e07516533093b1afbe3aa108273659",
+        "tag": "v0.0.162",
+        "timestamp": "2026-05-19T13:55:16.339379068+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "d1d62af052c771d33edf0eb9d8ca1196f33b5c90",
+        "file": "small-models.yaml",
+        "file_sha256": "394175d61205e665f6b1050627572768b1e07516533093b1afbe3aa108273659",
+        "services": [
+          "nginx"
+        ],
+        "tag": "v0.0.162",
+        "timestamp": "2026-05-19T13:56:18.360132038+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "abba782faf741444219090289647e2d33055cf6e",
+        "file": "small-models.yaml",
+        "file_sha256": "0d9a6a0317c244fbceb18f2fdd1ac83382230c331fa3bd677c0ceaa60088fb58",
+        "tag": "v0.0.163",
+        "timestamp": "2026-05-19T14:53:47.243880331+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "22f56d76da7bae167b016bfcdc9a36d18e13d9dd",
+        "file": "small-models.yaml",
+        "file_sha256": "d998c4f7f26732cca87f253638bbaacb4c6a204ac01c8f2608fed310a6a726ce",
+        "services": [
+          "nginx"
+        ],
+        "tag": "v0.0.165",
+        "timestamp": "2026-05-20T10:35:23.173308117+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "4f3627390183d29d8376fc872763905c6fd94513",
+        "file": "small-models.yaml",
+        "file_sha256": "16ffacbb7db375a7f45f68941df8bcdecfb07bf3fa8af856e191a47edd089f56",
+        "services": [
+          "privacy-filter"
+        ],
+        "tag": "v0.0.166",
+        "timestamp": "2026-05-21T08:22:36.572966766+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "c457d0bf932f8e2d84a5e33a15dd5a0ed6624c7c",
+        "file": "small-models.yaml",
+        "file_sha256": "a55707f116894bac94eb142e5f781e7c208c095d42fa32b10db50b3de257d90d",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.167",
+        "timestamp": "2026-05-21T09:39:08.955541808+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "9be8b7b78e5e93e3df2d58df299555edbf81aaea",
+        "file": "small-models.yaml",
+        "file_sha256": "a55707f116894bac94eb142e5f781e7c208c095d42fa32b10db50b3de257d90d",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.167",
+        "timestamp": "2026-05-21T09:41:28.179634931+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "8c48268d2386f24d7924148181539e08caaf2a1e",
+        "file": "small-models.yaml",
+        "file_sha256": "a55707f116894bac94eb142e5f781e7c208c095d42fa32b10db50b3de257d90d",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.167",
+        "timestamp": "2026-05-21T09:42:20.475630849+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "b19e44a1e9ffd0459a61946f68ad5e0e8d195851",
+        "file": "small-models.yaml",
+        "file_sha256": "a55707f116894bac94eb142e5f781e7c208c095d42fa32b10db50b3de257d90d",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.167",
+        "timestamp": "2026-05-21T09:43:21.599274507+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "b19e44a1e9ffd0459a61946f68ad5e0e8d195851",
+        "file": "small-models.yaml",
+        "file_sha256": "33331d81aca93cc243de9805d39dc34053beceb05bafe19e02fb25e76ba77045",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.168",
+        "timestamp": "2026-05-21T09:45:33.713958966+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "8e71b71ba5dd443aa8040704cd092d1a6e57f54d",
+        "file": "small-models.yaml",
+        "file_sha256": "7f60fb50ff9f8216683248ddc442b3e38cb3451bf621e885ec4e6f2c8ea414fe",
+        "services": [
+          "vllm-proxy-privacy-filter",
+          "privacy-filter",
+          "privacy-filter-cpu"
+        ],
+        "tag": "v0.0.169",
+        "timestamp": "2026-05-21T10:01:40.482537293+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "eb3179564bc2189627102cbfe446591e08f9763b",
+        "file": "small-models.yaml",
+        "file_sha256": "46dc42e092faecd05766c52fdd83254c857cf0c40a3b944cdae44924ed2cf4fd",
+        "services": [
+          "vllm-proxy-privacy-filter"
+        ],
+        "tag": "v0.0.170",
+        "timestamp": "2026-05-21T10:10:27.049216908+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "a322234aff7b160462e1642ba1506c77e7a75e20",
+        "file": "small-models.yaml",
+        "file_sha256": "2401c6e47fd129758c86d90f73f49c26c444c7ae271de27b9b7ab3f26617e85c",
+        "services": [
+          "vllm-proxy-privacy-filter"
+        ],
+        "tag": "v0.0.171",
+        "timestamp": "2026-05-21T10:25:16.126588888+00:00"
+      },
+      {
+        "action": "compose_up",
+        "commit": "e1cce7e7e891de7d9b62228653d9d06288e65fa7",
+        "file": "small-models.yaml",
+        "file_sha256": "4462be6aebad01984db5289d0ba952797cf8dfe037a1e0de649264efd58a9d5c",
+        "services": [
+          "vllm-proxy-privacy-filter"
+        ],
+        "tag": "v0.0.172",
+        "timestamp": "2026-05-21T10:38:13.747472476+00:00"
+      }
+    ],
+    "actions_hash": "d551dc7dbb9570233829aacaaf785467919793535593f5f8ca6aede603a43fe5",
+    "event_log": "<trimmed>",
+    "nonce": "63c1fb7a03f677c16fd97eeb0e1cc0fc1346d6297e85f0c84307c1039b0e5594",
+    "nonce_source": "client",
+    "quote": "0000000000000000",
+    "report_data": "d551dc7dbb9570233829aacaaf785467919793535593f5f8ca6aede603a43fe563c1fb7a03f677c16fd97eeb0e1cc0fc1346d6297e85f0c84307c1039b0e5594",
+    "vm_config": "<trimmed>"
+  }
+}

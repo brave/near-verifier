@@ -1,0 +1,59 @@
+repository:
+  description: Independently verify NEAR AI Cloud's TDX and GPU attestation, image provenance and reproducible builds
+  topics: confidential-computing, intel-tdx, attestation, reproducible-builds, slsa
+  private: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: false
+  delete_branch_on_merge: true
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
+
+labels:
+  - name: bug
+    color: CC0000
+    description: An issue with the system
+  - name: security
+    color: C215F2
+    description: A security issue
+
+#milestones:
+#  - title: milestone-title
+#    description: milestone-description
+#    state: open
+
+collaborators:
+  - username: brave-security-bot
+    permission: pull
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions:
+          users: []
+          teams: []
+      required_status_checks:
+        strict: false
+        # Must match the job names in .github/workflows/ci.yml.
+        contexts:
+          - test (py3.11)
+          - test (py3.12)
+          - test (py3.13)
+          - test (py3.14)
+          - lint and typecheck
+      enforce_admins: true
+      required_linear_history: false
+      restrictions:
+        apps: []
+        users: []
+        teams: []
+
