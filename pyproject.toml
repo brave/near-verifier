@@ -14,7 +14,7 @@ dependencies = [
     "cryptography==50.0.2",
     "boto3==1.43.59",
     "pyjwt[cryptography]==2.15.1",
-    "pycryptodomex==3.23.0",  # Keccak-256 for secp256k1 signing-address derivation
+    "pycryptodomex==3.24.0",  # Keccak-256 for secp256k1 signing-address derivation
     "pyyaml==6.0.3",  # docker-compose parsing
 ]
 
