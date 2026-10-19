@@ -124,7 +124,7 @@ CERT_OIDC_ISSUER: str = "https://token.actions.githubusercontent.com"
 _GATEWAY_EXPECTED_COMMITS: dict[str, dict[str, str]] = {
     # Sigstore-verified from the deployed images' provenance.
     "prod": {
-        "nearaidev/cloud-api": "e8a534ffba3edf7f51bfe8b207ccdbb2f284a491",
+        "nearaidev/cloud-api": "752e2976a7ee2a8790163974ba4a70dd218bbf3b",
         "nearaidev/cvm-ingress": "6b1b58c9cf63ada80cb3be7456fbedcae9cf0173",
         "nearaidev/dstack-vpc": "12a5f4e1ebe87d31dba42cc246bb8761e6fcdfa6",
         "nearaidev/dstack-vpc-client": "e0b365cea0af0943cda7b0456e00108c8d768be7",
