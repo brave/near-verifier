@@ -716,7 +716,10 @@ def _uses_gpu(service: dict[str, Any]) -> bool:
     A ``${VAR}`` in runtime, privileged or a device driver could become
     anything at up time, so it counts, as does any device reservation, an
     ``env_file`` (it can set NVIDIA_VISIBLE_DEVICES) and a variable passed
-    through from the up-time environment.
+    through from the up-time environment. A ``device_cgroup_rules`` entry
+    grants access to whole device classes by major number (NVIDIA nodes are
+    ``c 195:*``) and lets the container create the nodes itself, so any rule
+    counts, as does a bind of ``/dev`` or of a device node under it.
     """
     runtime, privileged = service.get("runtime"), service.get("privileged")
     if runtime == "nvidia" or "$" in str(runtime or ""):
@@ -724,6 +727,8 @@ def _uses_gpu(service: dict[str, Any]) -> bool:
     if privileged is True or (isinstance(privileged, str) and privileged != "false"):
         return True
     if service.get("gpus") or service.get("env_file"):
+        return True
+    if service.get("device_cgroup_rules"):
         return True
     deploy = service.get("deploy")
     resources = deploy.get("resources") if isinstance(deploy, dict) else None
@@ -735,6 +740,8 @@ def _uses_gpu(service: dict[str, Any]) -> bool:
         return True
     if any("nvidia" in str(d) for d in service.get("devices") or []):
         return True
+    if _binds_device_tree(service):
+        return True
     env = service.get("environment")
     if isinstance(env, list):
         env = {
@@ -745,6 +752,37 @@ def _uses_gpu(service: dict[str, Any]) -> bool:
         return False
     visible = env["NVIDIA_VISIBLE_DEVICES"]
     return visible is None or str(visible).strip().lower() not in ("", "void", "none")
+
+
+# /dev subpaths that are not device nodes: /dev/shm is the shared-memory
+# tmpfs, which non-server services bind for ordinary IPC. It is a device-tree
+# path here, not a temp directory.
+_HARMLESS_DEV_PATHS = frozenset({"/dev/shm"})  # nosec B108
+
+
+def _binds_device_tree(service: dict[str, Any]) -> bool:
+    """Whether a host bind puts device nodes in the container's reach: a bind
+    of ``/dev`` exposes every node, a bind of one node (e.g. ``/dev/nvidia0``)
+    that device, and a ``${VAR}`` could be either at up time."""
+    sources: list[str] = []
+    for volume in service.get("volumes") or []:
+        if isinstance(volume, dict):
+            if volume.get("type") not in (None, "bind"):
+                continue
+            sources.append(str(volume.get("source") or ""))
+        else:
+            sources.append(str(volume).split(":", 1)[0])
+    for device in service.get("devices") or []:
+        if isinstance(device, dict):
+            sources.append(str(device.get("source") or ""))
+        else:
+            sources.append(str(device).split(":", 1)[0])
+    return any(
+        "$" in source
+        or source == "/dev"
+        or (source.startswith("/dev/") and source not in _HARMLESS_DEV_PATHS)
+        for source in sources
+    )
 
 
 # Host paths that would hand a container the dstack or Docker socket.
