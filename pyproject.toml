@@ -12,7 +12,7 @@ dependencies = [
     "requests==2.34.2",
     "certifi==2026.7.22",  # TLS root trust store
     "cryptography==50.0.2",
-    "boto3==1.43.59",
+    "boto3==1.43.114",
     "pyjwt[cryptography]==2.15.1",
     "pycryptodomex==3.23.0",  # Keccak-256 for secp256k1 signing-address derivation
     "pyyaml==6.0.3",  # docker-compose parsing
