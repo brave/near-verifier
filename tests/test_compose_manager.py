@@ -1298,6 +1298,9 @@ class TestRunningGpuProblems:
                     }
                 }
             },
+            {"device_cgroup_rules": ["c 195:* rwm"]},
+            {"volumes": ["/dev:/gpu-host"]},
+            {"devices": [{"permissions": "rwm", "source": "/dev", "target": "/dev"}]},
         ],
         ids=[
             "device",
@@ -1305,6 +1308,9 @@ class TestRunningGpuProblems:
             "privileged",
             "visible-devices",
             "reservation",
+            "cgroup-rule",
+            "dev-bind",
+            "dev-node",
         ],
     )
     def test_gpu_sidecar_fails_the_verdict(self, extra: dict[str, Any]) -> None:
@@ -1395,12 +1401,30 @@ class TestComposeResolution:
             {"runtime": "${R:-runc}"},
             {"privileged": "true"},
             {"deploy": {"resources": {"reservations": {"devices": [{"count": 1}]}}}},
+            {"device_cgroup_rules": ["c 195:* rwm"]},
+            {"volumes": ["/dev:/gpu-host"]},
+            {"devices": [{"permissions": "rwm", "source": "/dev", "target": "/dev"}]},
         ],
-        ids=["env-file", "pass-through", "interpolated-runtime", "string", "device"],
+        ids=[
+            "env-file",
+            "pass-through",
+            "interpolated-runtime",
+            "string",
+            "device",
+            "cgroup-rule",
+            "dev-bind",
+            "dev-node",
+        ],
     )
     def test_other_gpu_forms_count(self, extra: dict[str, Any]) -> None:
         sidecar = {"image": "alpine", **extra}
         assert self._approved({"m": self.SERVER, "x": sidecar}) is False
+
+    def test_shared_memory_bind_is_not_gpu_access(self) -> None:
+        # /dev/shm is a tmpfs mount, not a device node; a sidecar that binds
+        # it stays outside the GPU rule.
+        sidecar = {"image": "alpine", "volumes": ["/dev/shm:/dev/shm"]}
+        assert self._approved({"m": self.SERVER, "x": sidecar}) is True
 
     @pytest.mark.parametrize(
         "extra",
