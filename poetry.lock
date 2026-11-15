@@ -609,20 +609,20 @@ ssh = ["bcrypt (>=3.1.5)"]
 
 [[package]]
 name = "dcap-qvl"
-version = "0.3.13"
+version = "0.7.1"
 description = "Python bindings for DCAP (Data Center Attestation Primitives) quote verification library"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "dcap_qvl-0.3.13-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:3ed5cbd4dce13c778b3a10d0fb6033d5000c30ad57160006fe20d18bba8803be"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:3c5fc38ff5607ebbbe7ff3feae6e97d8f9981a0fa7603ebb16f6b5fdca86d7a6"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c0fa80504a1daa8321977bbee1ab441dea7f49bfcab98898eee03b8b4f609a20"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2054d17b51fa246751742faaf297bf5893ce2d540b226c2e698f16b1860c01f6"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:69f2e3f16d534c146e9f3dc1be51d152bfb6183d4e79d8e63e4ba8a06a0cd803"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:a35d5dd3b72c86869afa65d1698fa1f3e50fb8cf9c1512ab4964c487bb4adae9"},
-    {file = "dcap_qvl-0.3.13-cp38-abi3-win_amd64.whl", hash = "sha256:03f29295795d3f0f4c7edb5c037cba6c09a552c8e4d43fdac18bfd5560f3492f"},
-    {file = "dcap_qvl-0.3.13.tar.gz", hash = "sha256:2e4443378bddfd2c877e339d922b2baa5d15116e18efd9cfe94cd03165a045de"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:bc1b04084873508531a2c0c80ab687a8e0ea4daa544c3d41c9610c5170c8ef7c"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:092d4d7b8e790b36f571deb711c8301c32219ba496d15f240fb5bbd35a2d01ea"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:582b1afb1cce7981669d30480dea1528752e8f5de92b23236a08e6342fe5b6bc"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0411ae71234f95d779e424a0e21e93f52098e9b95f09f18ea200d495a4c9138e"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:0dfb73b1cc92c00c29987b49912a0ed635fc67f4f6219db04832746ff2dddfef"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:ab1bfa18ce9e0a9ba7554ccbb1bfb4eccdd420d6769171406e386e32004e2062"},
+    {file = "dcap_qvl-0.7.1-cp38-abi3-win_amd64.whl", hash = "sha256:02aa45f2ff65221453e872e314ffc35bfb035e199d5d1f4aa890d43bb4f33a35"},
+    {file = "dcap_qvl-0.7.1.tar.gz", hash = "sha256:d74d3cf272b77b0c756b4f328f833b40506d151720aee0db480099ecc9c80477"},
 ]
 
 [[package]]
@@ -1508,4 +1508,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0"
-content-hash = "c0115a33a6d36a8c713d51d9ad6882ba66fe729f94400803b0fe5a28afcacb41"
+content-hash = "327f95fb31c985614b4383ec7810b7f89b5f356df0263885d8df3af1624a06dd"
